@@ -1,0 +1,271 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  border: px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-image: url(./bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
+  background-position: center;
+  background-size: cover; */
+  background-image: url(./assets/nick-nice-gPm8h3DS1s4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.mobile-1 {
+  width: 55%;
+  height: 70vh;
+  border: 6px solid rgb(78, 77, 77);
+  border-radius: 40px;
+}
+
+
+.mobile-1-1 {
+  width:100%;
+  height: 68vh;
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 35px;
+  position: relative;
+  
+  padding-top: 50px;
+
+  /* justify-content: start; */
+background-image: url(./assets/image-3.jpg);
+background-position: center;
+background-size: cover;
+
+
+}
+
+.mobile-1-1 span{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+.btn-add{
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 88, 189);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+input{
+  /* width: ; */
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  outline: none;
+  /* font-weight: 800; */
+}
+
+
+.clear{
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 42, 42);
+  color: white;
+  margin-left: 10px;
+  /* margin-top: 3px; */
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+.container-box{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+
+}
+
+
+.box-1{
+  width: 30%;
+  height: 30vh;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  display: flex;
+  background-color: rgba(101, 238, 101, 0.089);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.box-1 h1{
+  font-size: 30px;
+}
+.box-1 h1:first-child{
+  color: white;
+}
+
+.box-1 h1:nth-child(2){
+  color: rgb(9, 255, 0);
+}
+.box-2{
+  width: 30%;
+  height: 30vh;
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 242, 53, 0.12);
+  
+}
+
+.box-2 h1{
+  font-size: 33px;
+}
+
+
+.box-2 h1:first-child{
+  color: white;
+}
+
+.box-2 h1:nth-child(2){
+  color: rgb(255, 0, 0);
+}
+
+
+
+
+
+.box-3{
+  width: 30%;
+  height: 30vh;
+  /* border: 1px solid rgb(255, 0, 0); */
+  background-color: rgba(0, 253, 253, 0.096);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  
+}
+
+
+.box-3 h1{
+  font-size: 33px;
+}
+
+.box-3 h1:first-child{
+  color: white;
+}
+
+.box-3 h1:nth-child(2){
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.mobile-2 {
+  width: 23%;
+  height: 90vh;
+  border: 6px solid rgb(90, 89, 89);
+  border-radius: 40px;
+
+}
+
+.mobile-2-1 {
+  width: 100%;
+  height: 88.4vh;
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 35px;
+  position: relative;
+  /* background-image: url(./tom-barrett-hgGplX3PFBg-unsplash.jpg); */
+  /* background-position: center;
+  background-size: cover; */
+  padding-inline: 10px;
+  background-image: url(./assets/image-13.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.circle-2 {
+  width: 25%;
+  height: 24px;
+  background-color: black;
+  /* border: no; */
+  
+  border-radius: 60px;
+  position: absolute;
+  left: 38%;
+  top: 1.5%;
+}
+
+
+.mobile-2-1 ul{
+  list-style: none;
+  margin-top: 50px;
+  font-size: 12px;
+  color: rgb(175, 169, 184);
+  
+}
+
+.mobile-2-1 ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(186, 184, 139);
+  margin-top: 30px;
+}
+
+.mobile-2-1 ul li h1{
+  font-size: 18px;
+  
+}
+
+.edit{
+  width: 50px;
+  height: 25px;
+  background-color: transparent;
+  color: rgb(246, 255, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete{
+  width: 50px;
+  height: 25px;
+  background-color: transparent;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
